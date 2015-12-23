@@ -1,0 +1,29 @@
+{
+  "name": "express_react_gulp_browserify_kit",
+  "version": "0.0.1",
+  "description": "StaterKit for Express app with cliebt in react using gulp and browserify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zaingz",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-sass": "^2.1.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "history": "^1.14.0",
+    "jquery": "^2.1.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.1"
+  }
+}
